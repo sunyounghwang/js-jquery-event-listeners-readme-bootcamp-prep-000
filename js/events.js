@@ -10,6 +10,12 @@ function frameIt() {
   })
 }
 
+function pressIt() {
+  $('input').on('keydown', function(key) {
+    if key === 
+  })
+}
+
 $(document).ready(function(){
 
 // call functions here
